@@ -1,0 +1,301 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.logo_checkin { 
+  height: 15vmin;
+  pointer-events: none;
+  float: left;
+}
+
+.Header {
+  background-color: #181b28;
+  color: #ffffff;
+  padding: 50px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+h1 {
+  text-align: left;
+  margin: 0;
+  font-size: 100px;
+
+}
+
+p {
+  text-align: left;
+  margin: 10px 0;
+  font-size: 50px;
+}
+
+.navbar {
+  background-color: #89c776;
+  font-size: 20px;
+  margin: 5px;
+  padding: 20px;
+  position: absolute;
+  top: 50;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  transition: all 0.3s ease 0s;
+}
+
+a {
+  background-color: #ffffff;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #181b28;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+
+}
+
+a hover{
+  color: black;
+  background-color: #91978f;
+  transition: all 0.3s ease 0s;
+}
+
+
+/* Propriétaires */
+
+.Propriétaires {
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 15px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
+
+.Propriétaires h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.Propriétaires form {
+  display: flex;
+  flex-direction: column;
+}
+
+.Propriétaires label {
+  margin-bottom: 10px;
+}
+
+.Propriétaires input[type="text"],
+.Propriétaires input[type="date"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.Propriétaires [type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.Propriétaires input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+
+/* Marketplace Primaire */
+
+.marketplace-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.marketplace-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.listing-card {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.listing-title {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+
+.listing-price {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.listing-satut {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.rent-link {
+  display: block;
+  margin-top: 10px;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.rent-link:hover {
+  text-decoration: underline;
+}
+
+.none { 
+  font-size: 15px;
+  font-weight: bold;
+  color: red;
+}
+
+/* Location */
+
+.location-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.location-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.location-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.listing-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.listing-description {
+  margin-bottom: 10px;
+}
+
+.listing-price {
+  font-weight: bold;
+}
+
+.listing-proprietaire {
+  font-weight: bold;
+}
+
+.location-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.location-button:hover {
+  background-color: #45a049;
+}
+
+/* LouerLogement */
+
+.louerLogement {
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 15px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
+
+.louerLogement h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.louerLogement form {
+  display: flex;
+  flex-direction: column;
+}
+
+.louerLogement label {
+  margin-bottom: 10px;
+}
+
+.louerLogement input[type="text"],
+.louerLogement input[type="date"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.louerLogement [type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.louerLogement input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* MyRents */
+
+.mesLocations {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.location-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.location-card {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.listing-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+
+.listing-end-date {
+  font-size: 20px;
+}
+
+.none { 
+  font-size: 15px;
+  font-weight: bold;
+  color: red;
+}
