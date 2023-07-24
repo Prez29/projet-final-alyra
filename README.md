@@ -39,7 +39,10 @@ From there, follow the instructions on the hosted React app. It will walk you th
 - __Where can I find more resources?__
 
   This Box is a sweet combo of [Truffle](https://trufflesuite.com) and [Webpack](https://webpack.js.org). Either one would be a great place to start!
-  Outils utilisés :
+
+
+Outils utilisés :
+
 Truffle v5.9.2
 
 Ganache v7.8.0
@@ -57,6 +60,13 @@ Vercel (https://vercel.com/) : pour la publication de la Dapp via Github
 Loom (https://www.loom.com/) pour les vidéos de démo
 
 Blockhain network de test : SEPOLIA
+
+Choix des technologies :
+Nous avons choisi la Truffle Box React car :
+
+c'est l'outil qui est abordé dans les cours en ligne
+le plus simple à utiliser pour nous
+nous n'avons pas eu le temps à nous consacrer à utiliser Hardhat
 
 Checkin 
 
