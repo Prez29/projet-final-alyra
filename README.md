@@ -39,6 +39,24 @@ From there, follow the instructions on the hosted React app. It will walk you th
 - __Where can I find more resources?__
 
   This Box is a sweet combo of [Truffle](https://trufflesuite.com) and [Webpack](https://webpack.js.org). Either one would be a great place to start!
+  Outils utilisés :
+Truffle v5.9.2
+
+Ganache v7.8.0
+
+Solidity v0.5.16
+
+Node v16.16.0
+
+Web3.js v1.10.0
+
+Truffle Box React (All in One) => Installation : truffle unbox react
+
+Vercel (https://vercel.com/) : pour la publication de la Dapp via Github
+
+Loom (https://www.loom.com/) pour les vidéos de démo
+
+Blockhain network de test : SEPOLIA
 
 Checkin 
 
